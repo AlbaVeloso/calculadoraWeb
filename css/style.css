@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: green;
+}
+.calculadora {
+    width: 40%;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 10px;
+}
+.calculadora input {
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 22%;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .calculadora {
+        width: 90%;
+    }
+}
